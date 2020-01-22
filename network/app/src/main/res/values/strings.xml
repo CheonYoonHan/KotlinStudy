@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Network</string>
+    <string name="url">http://15.165.54.1:8080/lookie/login</string>
+    <string name="signup_url">http://15.165.54.1:8080/lookie/register</string>
+</resources>
