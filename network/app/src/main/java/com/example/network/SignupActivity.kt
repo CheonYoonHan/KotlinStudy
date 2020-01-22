@@ -52,10 +52,10 @@ class SignupActivity : AppCompatActivity() {
 
         override fun onPostExecute(result: String?) {
             if(result!!.get(0) != '{'){
-                Toast.makeText(applicationContext, "Can't find server",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Signup Success",Toast.LENGTH_SHORT).show()
             }
             else{
-                Toast.makeText(applicationContext, "Signup Success",Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "Signup fail",Toast.LENGTH_SHORT).show()
             }
         }
     }
